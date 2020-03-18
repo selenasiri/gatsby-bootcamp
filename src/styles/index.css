@@ -1,9 +1,0 @@
-* {
-  color: red;
-}
-
-//gatsby will not apply styles
-//you must import them to the layout component
-//then we can just apply all the styles here
-
-//On gatsbyjs.org we can find plug-ins to include here.
