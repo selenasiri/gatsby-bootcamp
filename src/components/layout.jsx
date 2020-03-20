@@ -9,8 +9,11 @@ const Layout = props => {
 
   return (
     <div className={styles.container}>
-      <Header />
-      {props.children}
+      <div className={styles.container}>
+        <Header />
+        {props.children}
+      </div>
+
       <Footer />
     </div>
   )
